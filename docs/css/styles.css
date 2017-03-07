@@ -1,11 +1,11 @@
 h1 {
   transition: 0.5s;
-  transform-origin: left center;
+  transform-origin: right top;
 }
 
 h1:hover {
-  color:Red;
-  transform: transformY(-200px);
+  color: red;
+  transform: rotate(-45deg);
 }
 
 .carousel {
