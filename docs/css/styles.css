@@ -18,7 +18,7 @@ h1:hover {
 }
 .carousel-wrapper:hover {
   max-width: calc(600px + 4rem);
-  background-color: grey
+  background-color: grey;
   padding: 2rem;
   padding-bottom: 1px;
 }
