@@ -47,8 +47,18 @@ $('.carousel').slick({
   function positionAlienHand(event) {
     // Log the event.
     console.log(event);
-  }
+    //Add CSS to the AlienHand to un-hide it.
+    AlienHand.css({"display": "blocl"});
+    //Add CSS to position the AlienHand.
+    mustache.css({
+      left: event.pageX - 50,
+      top: event.pageY - 14
+    });
+  };
 
+
+  // Add CSS to the AlienHand to hide it.
+  AlienHand.css("display", "none");
   // Add the AlienHand to our carousel.
   $('.carousel-wrapper')
   .append(AlienHand)

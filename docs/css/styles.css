@@ -24,3 +24,8 @@ h1:hover {
 .carousel figure {
   margin: 0;
 }
+
+.AlienHand {
+  position: absolute;
+  width: 100px;
+}
