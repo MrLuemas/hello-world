@@ -39,6 +39,9 @@ $('.carousel').slick({
   fade: true,
   cssEase: 'linear'
 });
+  // Create an img element.
+  var AlienHand = $('<img class="AlienHand" src="https://ih1.redbubble.net/image.169490773.4284/sticker,375x360.png" alt="catHand">');
+
 
   // Define a click handler.
   function positionAlienHand(event) {
@@ -48,6 +51,7 @@ $('.carousel').slick({
 
   // Add the AlienHand to our carousel.
   $('.carousel-wrapper')
+  .append(AlienHand)
     // Add a click event handler too.
     .click(positionAlienHand);
 </script>
