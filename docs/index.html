@@ -21,6 +21,7 @@
     </div>
   </div>
 <h4>
+  // Cat video link 1. (Cat Video)
   <a href="https://www.youtube.com/watch?v=q23W8SZyDu4" target="_blank">Cat Video
   </a>
 </h4>
@@ -37,6 +38,17 @@ $('.carousel').slick({
   fade: true,
   cssEase: 'linear'
 });
+
+  // Define a click handler.
+  function positionAlienHand(event) {
+    // Log the event.
+    console.log(event);
+  }
+
+  // Add the AlienHand to our carousel.
+  $('.carousel-wrapper')
+    // Add a click event handler too.
+    .click(positionAlienHand);
 </script>
 
 </body>
